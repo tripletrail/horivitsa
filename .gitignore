@@ -1,37 +1,46 @@
 # Ignore configuration files that may contain sensitive information.
-sites/*/*settings*.php
+#drupal-7.31/sites/*/*settings*.php
 
 # Ignore paths that contain generated content.
-cache/
-files/
-sites/*/files
-sites/*/private
+#drupal-7.31/cache/
+#drupal-7.31/files/
+#drupal-7.31/sites/*/files
+#drupal-7.31/sites/*/private
 
 # Ignore default text files
-robots.txt
-/CHANGELOG.txt
-/COPYRIGHT.txt
-/INSTALL*.txt
-/LICENSE.txt
-/MAINTAINERS.txt
-/UPGRADE.txt
-/README.txt
-sites/all/README.txt
-sites/all/modules/README.txt
-sites/all/themes/README.txt
+#drupal-7.31/robots.txt
+#/CHANGELOG.txt
+#/COPYRIGHT.txt
+#/INSTALL*.txt
+#/LICENSE.txt
+#/MAINTAINERS.txt
+#/UPGRADE.txt
+#/README.txt
+#drupal-7.31/sites/all/README.txt
+#drupal-7.31/sites/all/modules/README.txt
+#drupal-7.31/sites/all/themes/README.txt
 
 # Ignore everything but the "sites" folder ( for non core developer )
 .htaccess
-web.config
-authorize.php
-cron.php
-index.php
-install.php
-update.php
-xmlrpc.php
-/includes
-/misc
-/modules
-/profiles
-/scripts
-/themes
+#drupal-7.31/web.config
+#drupal-7.31/authorize.php
+#drupal-7.31/cron.php
+#drupal-7.31/index.php
+#drupal-7.31/install.php
+#drupal-7.31/update.php
+#drupal-7.31/xmlrpc.php
+#drupal-7.31/includes
+#drupal-7.31/misc
+#drupal-7.31/modules
+#drupal-7.31/profiles
+#drupal-7.31/scripts
+#drupal-7.31/themes
+
+.DS_Store 
+.buildpath 
+.project 
+.settings 
+/drupal-7.31/backup 
+/drupal-7.31/sites/default/files/css 
+/drupal-7.31/sites/default/files/js /sites/default/files/xmlsitemap 
+/drupal-7.31/tmp
